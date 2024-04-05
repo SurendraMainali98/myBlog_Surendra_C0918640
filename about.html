@@ -11,13 +11,12 @@
     <!-- Header section -->
     <header>
         <h1>Travel Blog</h1>
-        <p>Explore Nice through my adventures</p>
+        <p>Explore Nepal through my adventures</p>
     </header>
     
     <!-- Navigation section -->
     <nav>
-        <h1> Travel </h1>
-
+        <h1>Travel</h1>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
@@ -26,23 +25,36 @@
     </nav>
     
     <!-- Main content section -->
-    <main>
+    <div class="container">
+        <!-- Left Sidebar -->
+        <aside>
+            <h2>Related Posts</h2>
+            <ul>
+                <li><a href="#"><img src="img1.jpg" alt="Post 1"></a></li>Sunset View from Nepal
+                <li><a href="#"><img src="img2.jpg" alt="Post 2"></a></li>Swayambhunath Temple
+                <li><a href="#"><img src="img3.jpg" alt="Post 3"></a></li>Lake
+            </ul>
+        </aside>
+        
+        <!-- Article Section -->
         <section>
             <h2>About Me</h2>
-            <p>Name: Surendra Mainali</p>
-            <p>Education: +2 graduated, Currently, Studying Diploma in Computer Programmer, Lambton College, Toronto</p>
-            <p>Work Experience: 6 Months on the field Experience about Computer Assembly, CCTV installation</p>
+            <article>
+                <figure>
+                    <img src="myimage.jpg" alt="Profile Picture" width="800" height="800">
+                    <figcaption>Info:</figcaption>
+                    <p>Name: Surendra Mainali</p>
+                    <p>Education: +2 graduated, Currently, Studying Diploma in Computer Programmer, Lambton College, Toronto</p>
+                    <p>Work Experience: 6 Months on the field Experience about Computer Assembly, CCTV installation</p>
+                </figure>
+            </article>
         </section>
-    </main>
-    
-    <!-- Aside (sidebar) section -->
-    <aside>
-        
-        <ul>
-            <li class="back-button"><a href="index.html">Back</a></li>
-        </ul>
-        
-    </aside>
+    </div>
+
+    <!-- Back button -->
+    <div class="back-button">
+        <a href="index.html">Back</a>
+    </div>
     
     <!-- Footer section -->
     <footer>
